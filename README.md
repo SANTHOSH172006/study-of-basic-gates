@@ -70,7 +70,8 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  
  
 **Logic symbol & Truthtable**
- module de1(a, b, c, d, e, x, y, z);
+
+module de1(a, b, c, d, e, x, y, z);
 input a, b;
 output c, d, e, x, y, z;
 assign c = a & b; // AND gate
