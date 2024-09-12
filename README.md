@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### Study-of-basic-gates
 
 **AIM:** 
 
@@ -63,14 +63,12 @@ Y= A⊕B
 
 
 **PROGRAM**
-
+```c
+***
 Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 212223220099
- 
- 
-**Logic symbol & Truthtable**
-
+Developed by:Santhosh D
+RegisterNumber: 212223220099
+***
 module de1(a, b, c, d, e, x, y, z);
 input a, b;
 output c, d, e, x, y, z;
@@ -81,17 +79,14 @@ assign x = ~(a & b); // NAND gate
 assign y = ~(a | b); // NOR gate
 assign z = ~(a^ b); // XNOR gate
 endmodule
-
-
+ ```
 **RTL realization Output:** 
+![image](https://github.com/user-attachments/assets/b1fc2c6a-119d-4b58-b17b-d17e22090a88)
+**RTL**:
 
-
-![Screenshot 2024-08-30 173621](https://github.com/user-attachments/assets/cdd73c37-b143-47f3-b5ae-b5d2e4ac7fb1)
-
-**RTL**
-
-![Screenshot 2024-08-29 143752](https://github.com/user-attachments/assets/baf4a796-fea3-4e26-b15d-8c61f1828012)
-
+![Screenshot 2024-08-29 165530](https://github.com/user-attachments/assets/84d33ae1-2ed5-4f17-8aff-2e8a44f20671)
 
 **Result:**
-The above program has executed sucessfully.
+The program is verified successfully using the software quartus prime.
+
+
